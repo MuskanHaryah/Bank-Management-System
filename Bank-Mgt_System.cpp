@@ -6,7 +6,7 @@
 #include <vector> // Enables the use of dynamic arrays (vectors) for storing loan reasons.
 #include <iomanip> // Provides input/output manipulation.
 
-using namespace std; // Allows using standard library names without needing to prefix them with std::.
+using namespace std; 
 
 // Custom Stack Class using Array
 class CustomStack {
@@ -756,4 +756,5 @@ int main() { // Main function where the program execution starts.
     } while (choice != 4); // Repeats until the user chooses to exit.
 
     return 0; // Returns 0 to indicate successful program termination.
+
 }
